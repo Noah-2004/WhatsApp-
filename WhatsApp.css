@@ -1,0 +1,263 @@
+*{
+    color: white;
+}
+body{ 
+    padding-bottom: 100px;
+    margin: 0;
+    background: black;
+}
+
+p{
+    margin: 0;
+    color: gray;
+}
+
+h3{
+    margin: 0;
+    color: white;
+}
+
+.header{
+ background: black;   
+ position: fixed;
+ top: 0px;
+ padding-right: 30px;
+ height: 70px;
+ width: 100%;
+ color: white;
+ Z-index: 100;
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+
+}
+
+.left-section {
+    background: black;
+    width: 150px;
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.right-section {
+    background: black;
+    min-width: 50px;
+    padding-right: 20px;
+    padding-left: 20px;
+    
+    display: flex;
+    flex-direction: row
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.left-section-btn,
+.right-section-btn {
+    background: black;
+    border-radius: 5px;
+    border: none;
+}
+
+.left-section-btn{
+    margin-right: 10px;
+}
+
+.right-section-btn{
+    margin-left: 10px;
+}
+
+.camera,
+.menu {
+    height: 30px;
+}
+
+.whatsapp-body { 
+ /*  background: gray; */
+ Z-index: 50;
+   margin-top: 65px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   position: relative;
+   
+    
+}
+
+.search-jpg {
+    width: px;
+    height: 43px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+}
+
+.AI-meta{
+   Z-index: 51;
+   position: fixed;
+   bottom: 180px;
+   right: 5px; 
+   margin-left: 150px;
+   color: lightgreen;
+}
+
+.AI{
+    height: 50px;
+    border-radius: 20px;
+}
+
+.AI-btn{
+    border: 0;
+    height: 50px;
+    border-radius: 20px;
+    padding: 0;
+}
+
+.update{
+   position: fixed;
+   bottom: 100px;
+   right: 5px; 
+  
+  
+}
+
+.update-btn{
+    border: 0;
+    height: 60px;
+    border-radius: 20px;
+    padding: 0;
+}
+
+.update-img{
+    height: 60px;
+    border-radius: 20px;
+}
+
+.search-bar{
+    margin-bottom: 40px;
+
+}
+.search-div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+input::placeholder{
+    color: white;
+}
+
+.search {
+    outline: none;
+    padding-left: 10px;
+    border: none;
+    height: 43px;
+    width: 330px;
+    background: gray;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    font-size: 150%;
+    color: white;
+}
+
+.search-btn{
+    border: none;
+    height: 45px;
+    width: 40px;
+    margin-right: 0;
+    
+    margin-left: 10px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background: gray;
+}
+
+.descriptions{
+    overflow-x: scroll;
+    width: 100%;
+    height: 35px;
+    display: flex;
+  
+}
+
+.descriptions > button {
+    
+    display: inline;
+    border: 2px gray solid;
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 30px;
+    color: gray;
+    background: black;
+    font-size: 20px;
+   
+   
+}
+
+.chats-area{
+    margin-top: 30px;
+ 
+}
+
+.friend {
+   position: relative;
+   margin-bottom: 30px;
+    width: 100%;
+    background: old;
+    display: flex;
+    flex-direction: row;
+}
+
+.profile-pic {
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    margin-right: 10px;
+    margin-left: 10px;
+    
+}
+
+.notification{
+   position: absolute;
+   bottom: 5px;
+   right: 5px;
+    background: lightgreen;
+    margin-left: 150px;
+    color: black;
+    padding: 2px;
+    border-radius: 10px;
+}
+
+.not-date{
+   position: absolute;
+   top: 2px;
+   right: 5px; 
+    margin-left: 150px;
+    color: lightgreen;
+}
+#wafooter{
+    background: black;
+    position: fixed;
+    bottom: 0px;
+    min-height: 80px;
+    width: 100%;
+    margin: 0;
+   
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+
+
+
+
+
